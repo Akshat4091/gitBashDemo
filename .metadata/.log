@@ -1,0 +1,68 @@
+!SESSION 2021-09-01 16:06:58.024 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+
+!ENTRY org.eclipse.osgi 4 0 2021-09-01 16:06:58.384
+!MESSAGE The -clean (osgi.clean) option was not successful. Unable to clean the storage area: C:\Users\akshat.jain\Provar\.configuration\configuration\org.eclipse.osgi
+
+!ENTRY org.eclipse.ui 2 0 2021-09-01 16:07:04.536
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-01 16:07:04.536
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.ui 2 0 2021-09-01 16:07:04.974
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-09-01 16:07:04.974
+!MESSAGE Commands need a name: plug-in='com.provar.eclipse.ui'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-01 16:07:08.517
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\akshat.jain'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-09-01 16:07:56.572
+!MESSAGE File toolbar contribution item is missing
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:56.717
+!MESSAGE TestPlugin loaded.  name: salesforce, from bundle: com.provar.plugins.sf.eclipse.ui
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:56.724
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: null, old status: unstarted, new status: starting
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:56.846
+!MESSAGE Start of loadTestCaseMap
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:56.854
+!MESSAGE Start of loadUiScreenMappingCache
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:56.856
+!MESSAGE End of loadUiScreenMappingCache - resource folder not found: C:\Users\akshat.jain\Provar\gitBash\training\src\resources
+
+!ENTRY com.provar.eclipse.ui 4 4 2021-09-01 16:07:56.860
+!MESSAGE Error loading Test Plan Items / java.lang.NullPointerException: null
+!STACK 0
+java.lang.NullPointerException
+	at com.provar.eclipse.ui.Activator.logException(Activator.java:1319)
+	at com.provar.eclipse.ui.testplans.TestPlanItemRegistryServiceImpl$InitialTestPlanItemLoadThread.run(TestPlanItemRegistryServiceImpl.java:491)
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:59.491
+!MESSAGE Processing new TestCase.  Name:  Test Case 1.testcase, isTestCase: true
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:07:59.630
+!MESSAGE TestCaseSettingsForm.updateControlsWithBelay.  Reason: initial, time: 10:37:59.628
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-09-01 16:08:03.107
+!MESSAGE File toolbar contribution item is missing
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-09-01 16:08:03.140
+!MESSAGE File toolbar contribution item is missing
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:08:03.158
+!MESSAGE Test Plugin status changing.  Plugin name: salesforce, tecId: IdentifierImpl{id=1}, old status: starting, new status: started
+
+!ENTRY com.provar.eclipse.ui 1 1 2021-09-01 16:08:36.951
+!MESSAGE Validate test cases - end.  Validated count: 1, skipped count: 0, duration(ms): 60

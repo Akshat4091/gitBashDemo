@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link0</name>
+			<type>2</type>
+			<location>C:/Program Files/Provar2.4 64 bit/plugins/com.provar.core.serialization_2.221.1.0</location>
+		</link>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Program Files/Provar2.4 64 bit/plugins/com.provar.testrunner_2.240.1.0</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Program Files/Provar2.4 64 bit/plugins/com.provar.plugins.sf.apis_2.240.12.0</location>
+		</link>
+	</linkedResources>
+</projectDescription>
